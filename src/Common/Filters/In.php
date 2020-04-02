@@ -7,7 +7,7 @@
  * @since      2020 Mar
  */
 
-namespace Intacct\CommonFilters\Filters;
+namespace Intacct\Common\Filters;
 
 use Intacct\Functions\Common\GetList\FilterInterface;
 use Intacct\Xml\XMLWriter;
