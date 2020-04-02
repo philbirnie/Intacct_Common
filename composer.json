@@ -1,0 +1,21 @@
+{
+  "name": "7thstreetweb/intacct-sdk-php-common",
+  "description": "Intacct Common Filters and Helpers",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "7th Street Web Company",
+      "homepage": "https://7thstreetweb.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "intacct/intacct-sdk-php": "^2.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Intacct\\Common\\": "src/Common/"
+    }
+  }
+}
