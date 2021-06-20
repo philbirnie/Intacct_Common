@@ -51,7 +51,7 @@ class In implements FilterInterface
      */
     public function writeXml(XMLWriter &$xml)
     {
-        if ($this->field && count($this->values) > 1) {
+        if ($this->field && count($this->values) >= 1) {
             $xml->startElement('in');
             $xml->writeElement('field', $this->field);
 
